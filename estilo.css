@@ -314,3 +314,26 @@ footer p {
 :is(table) td,th {
     padding-left: 5px;
 }
+
+@media only screen and (min-width:320px) and (max-width:425px) {
+    .box {
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .box-especialidades {
+        width: 100%;
+    }
+
+    .box-especialidades img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .box-especialidades img {
+        display: none;
+    }
+}
